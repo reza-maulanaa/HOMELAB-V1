@@ -22,6 +22,12 @@ Port 3 (device)	—	Untagged	10
 Port 4 (device)	—	Untagged	10
 Port 5 (Mikrotik)	Tagged	Tagged	1 (default, tidak dipakai)
 
+# Setting IP Switch
+
+IP: 192.168.99.2
+Subnet Mask: 255.255.255.0
+Gateway: 192.168.99.1
+
 ## pindah ke ether 2 mikrotik
 
 # Setting Mikrotik
@@ -41,5 +47,11 @@ ping -c 4 8.8.8.8
 ping -c 4 google.com
 
 ### JIKA BERHASIL ALHAMDULILLAH
+
+# Cara akses Switch
+
+Lan Laptop ke Port 1 Switch
+Pake IP Statis
+Masuk ke IP Switch
 
 # Terima kasih
